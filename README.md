@@ -3,11 +3,7 @@ Jeecg-Boot 快速开发平台-jeecg-boot-activiti-online
 ===============
 ## 前言
 
-- 本项目是基于 https://github.com/happy-panda/jeecg-boot-activiti 的基础上进行的再次开发，修改了一些代码结构，增加了一些功能，除了增加的代码，主体代码基本都源于原作者，感谢原作者
-
-  [**happy-panda**]: https://github.com/happy-panda	"happy-panda"
-
-  的开源贡献。
+- 本项目是基于 https://github.com/happy-panda/jeecg-boot-activiti 的基础上进行的再次开发，修改了一些代码结构，增加了一些功能，除了增加的代码，主体代码基本都源于原作者，感谢原作者**happy-panda**: https://github.com/happy-panda 的开源贡献。
 
 - 而其根本项目则是基于 https://github.com/jeecgboot/jeecg-boot 开源版。
 
