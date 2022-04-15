@@ -8,11 +8,11 @@ package ${bussiPackage}.${entityPackage}.controller;
 
 <#if bpm_flag>
 import java.util.ArrayList;
-import ActBusiness;
-import ActZprocess;
-import ActBusinessServiceImpl;
-import ActZprocessServiceImpl;
-import ActHelpUtil;
+import org.jeecg.activiti.entity.ActBusiness;
+import org.jeecg.activiti.entity.ActZprocess;
+import org.jeecg.activiti.service.impl.ActBusinessServiceImpl;
+import org.jeecg.activiti.service.impl.ActZprocessServiceImpl;
+import org.jeecg.activiti.util.ActHelpUtil;
 import org.jeecg.common.util.UUIDGenerator;
 import org.apache.commons.lang3.StringUtils;
 </#if>

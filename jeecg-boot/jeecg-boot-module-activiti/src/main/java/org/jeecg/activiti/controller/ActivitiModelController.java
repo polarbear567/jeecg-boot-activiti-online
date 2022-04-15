@@ -7,7 +7,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.jeecg.activiti.entity.ActZprocess;
-import org.jeecg.activiti.service.Impl.ActZprocessServiceImpl;
+import org.jeecg.activiti.service.impl.ActZprocessServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.activiti.bpmn.converter.BpmnXMLConverter;
 import org.activiti.bpmn.model.BpmnModel;

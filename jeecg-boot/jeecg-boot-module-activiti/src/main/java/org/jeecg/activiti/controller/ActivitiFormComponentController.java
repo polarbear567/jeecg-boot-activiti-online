@@ -1,7 +1,7 @@
 package org.jeecg.activiti.controller;
 
 import org.jeecg.activiti.entity.ActFormComponent;
-import org.jeecg.activiti.service.Impl.ActFormComponentServiceImpl;
+import org.jeecg.activiti.service.impl.ActFormComponentServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.jeecg.common.api.vo.Result;
 import org.springframework.beans.factory.annotation.Autowired;

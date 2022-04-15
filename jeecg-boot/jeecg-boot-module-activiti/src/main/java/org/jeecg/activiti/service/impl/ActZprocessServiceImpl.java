@@ -1,4 +1,4 @@
-package org.jeecg.activiti.service.Impl;
+package org.jeecg.activiti.service.impl;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.StrUtil;

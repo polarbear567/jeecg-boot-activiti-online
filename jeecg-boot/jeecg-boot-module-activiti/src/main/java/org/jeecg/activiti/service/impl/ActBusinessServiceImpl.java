@@ -1,4 +1,4 @@
-package org.jeecg.activiti.service.Impl;
+package org.jeecg.activiti.service.impl;
 
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.map.MapUtil;
