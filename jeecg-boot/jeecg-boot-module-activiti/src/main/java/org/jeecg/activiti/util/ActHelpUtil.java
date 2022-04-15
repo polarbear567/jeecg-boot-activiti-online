@@ -2,7 +2,7 @@ package org.jeecg.activiti.util;
 
 import org.jeecg.activiti.entity.ActBusiness;
 import org.jeecg.activiti.entity.ActivitiConstant;
-import org.jeecg.activiti.service.Impl.ActBusinessServiceImpl;
+import org.jeecg.activiti.service.impl.ActBusinessServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
