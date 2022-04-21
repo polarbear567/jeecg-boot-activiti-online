@@ -48,6 +48,11 @@
 			<artifactId>jeecg-boot-module-activiti</artifactId>
 			<version>${jeecgboot.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.jeecgframework.boot</groupId>
+			<artifactId>single-table-demo</artifactId>
+			<version>${jeecgboot.version}</version>
+		</dependency>
 		<!-- 积木报表 -->
 		<dependency>
 			<groupId>com.jimureport</groupId>
