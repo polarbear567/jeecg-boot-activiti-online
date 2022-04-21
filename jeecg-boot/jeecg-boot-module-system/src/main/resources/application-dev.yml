@@ -156,7 +156,7 @@ spring:
     port: 6379
 #mybatis plus 设置
 mybatis-plus:
-  mapper-locations: classpath*:org/jeecg/modules/**/xml/*Mapper.xml,classpath*:org/jeecg/activiti/mapper/xml/*Mapper.xml
+  mapper-locations: classpath*:org/jeecg/modules/**/xml/*Mapper.xml,classpath*:org/jeecg/activiti/mapper/xml/*Mapper.xml,classpath*:org/jeecg/singletabledemo/mapper/xml/*Mapper.xml
   global-config:
     # 关闭MP3.0自带的banner
     banner: false

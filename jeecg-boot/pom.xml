@@ -52,6 +52,7 @@
         <module>jeecg-boot-module-demo</module>
         <module>jeecg-boot-module-system</module>
         <module>jeecg-boot-module-activiti</module>
+        <module>single-table-demo</module>
 
         <!--   需要微服务，请打开注释
           <module>jeecg-boot-starter</module>
