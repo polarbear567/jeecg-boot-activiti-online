@@ -70,7 +70,7 @@ redis:
 
 在**工作流**菜单下的**流程模型**子菜单中，点击**创建流程模型**按钮：
 
-![创建流程模型](./jeecg-boot/single-table-demo/src/main/resources/static/创建流程模型.png)
+![创建流程模型](https://github.com/polarbear567/jeecg-boot-activiti-online/blob/feature/demo/jeecg-boot/single-table-demo/src/main/resources/static/创建流程模型.png)
 
 然后输入必要参数，创建好需要的流程后，点击发布。
 
@@ -78,13 +78,13 @@ redis:
 
 在**在线开发**菜单下的**Online表单开发**子菜单中，点击新增，这里我们创建一个名字叫做approval的单表，然后在**数据库属性**中填入如下字段，其中**act_status**是必须字段，而且其默认值必须是***未提交***。在页面属性中将**act_status**字段的表单显示去掉，只保留列表显示（当然具体看自己需求，也可去掉列表显示）。
 
-![数据库属性](./jeecg-boot/single-table-demo/src/main/resources/static/create.png)
+![数据库属性](https://github.com/polarbear567/jeecg-boot-activiti-online/blob/feature/demo/jeecg-boot/single-table-demo/src/main/resources/static/create.png)
 
-![页面属性](./jeecg-boot/single-table-demo/src/main/resources/static/create页面属性.png)
+![页面属性](https://github.com/polarbear567/jeecg-boot-activiti-online/blob/feature/demo/jeecg-boot/single-table-demo/src/main/resources/static/create页面属性.png)
 
 保存以后，点击**代码生成**按钮，按照各自业务需求生成代码，然后按照[官方文档](http://doc.jeecg.com/2043916)中的进行配置，我们最后可以看到这样的结果：
 
-![approval表](./jeecg-boot/single-table-demo/src/main/resources/static/approval表.png)
+![approval表](https://github.com/polarbear567/jeecg-boot-activiti-online/blob/feature/demo/jeecg-boot/single-table-demo/src/main/resources/static/approval表.png)
 
 ##### 关联模型与表单
 
@@ -94,23 +94,23 @@ redis:
 
 我们需要将表单做为一个组件，在**工作流**菜单下的**表单组件管理**子菜单中，点击**添加表单组件**按钮：
 
-![添加表单组件](./jeecg-boot/single-table-demo/src/main/resources/static/添加表单组件.png)
+![添加表单组件](https://github.com/polarbear567/jeecg-boot-activiti-online/blob/feature/demo/jeecg-boot/single-table-demo/src/main/resources/static/添加表单组件.png)
 
 然后填入相应的值，这里的表单组件路由和路径和菜单配置中很像，这里填写代码生成中生成的act前端文件路径。业务表类型我们这里选择单表。如果是其他类型，请注意该form中其他信息的提醒：
 
-![添加表单组件2](./jeecg-boot/single-table-demo/src/main/resources/static/添加表单组件2.png)
+![添加表单组件2](https://github.com/polarbear567/jeecg-boot-activiti-online/blob/feature/demo/jeecg-boot/single-table-demo/src/main/resources/static/添加表单组件2.png)
 
 ###### 编辑流程
 
 下面将表单组件和流程进行关联，在**工作流**菜单下的**已发布模型**子菜单中，在刚创建好的流程右边点击**编辑**，按照业务需求选择和填写，这里的**关联表单**字段所关联的就是我们之前创建的表单组件，我们选择***审批***：
 
-![编辑流程](./jeecg-boot/single-table-demo/src/main/resources/static/编辑流程.png)
+![编辑流程](https://github.com/polarbear567/jeecg-boot-activiti-online/blob/feature/demo/jeecg-boot/single-table-demo/src/main/resources/static/编辑流程.png)
 
 ##### 编辑流程节点
 
 在**已发布模型**子菜单中，我们还可以编辑流程节点，点击**节点设置**，可以在我们设计的流程环节中设置审批人员：
 
-![编辑流程节点](./jeecg-boot/single-table-demo/src/main/resources/static/编辑流程节点.png)
+![编辑流程节点](https://github.com/polarbear567/jeecg-boot-activiti-online/blob/feature/demo/jeecg-boot/single-table-demo/src/main/resources/static/编辑流程节点.png)
 
 ##### 发起申请
 
@@ -120,23 +120,23 @@ redis:
 
 这是最常用的一种方式，在我们的demo中新增一条数据：
 
-![新增数据](./jeecg-boot/single-table-demo/src/main/resources/static/新增数据.png)
+![新增数据](https://github.com/polarbear567/jeecg-boot-activiti-online/blob/feature/demo/jeecg-boot/single-table-demo/src/main/resources/static/新增数据.png)
 
 点击**确定**之后，我们即发起了一个申请：
 
-![发起申请在表单页](./jeecg-boot/single-table-demo/src/main/resources/static/发起申请在表单页.png)
+![发起申请在表单页](https://github.com/polarbear567/jeecg-boot-activiti-online/blob/feature/demo/jeecg-boot/single-table-demo/src/main/resources/static/发起申请在表单页.png)
 
 ###### 发起申请在所有流程页
 
 在**工作流**菜单下的**所有流程**子菜单中，每一个卡片页中都是我们的表单组件，在卡片右上角可以点击**发起申请**，然后会弹出approval表单，填写之后会新增一条数据，并且发起申请：
 
-![发起申请在所有流程页](./jeecg-boot/single-table-demo/src/main/resources/static/发起申请在所有流程页.png)
+![发起申请在所有流程页](https://github.com/polarbear567/jeecg-boot-activiti-online/blob/feature/demo/jeecg-boot/single-table-demo/src/main/resources/static/发起申请在所有流程页.png)
 
 ###### 发起申请在我的申请页
 
 在**工作流**菜单下的**我的申请**子菜单中，右上角有**发起申请**按钮，点击该按钮，会出现与所有流程页面上相同的卡片页，我们可以在卡片右上角可以点击**发起申请**，其效果和**发起申请在所有流程页**一样：
 
-![发起申请在我的申请页](./jeecg-boot/single-table-demo/src/main/resources/static/发起申请在我的申请页.png)
+![发起申请在我的申请页](https://github.com/polarbear567/jeecg-boot-activiti-online/blob/feature/demo/jeecg-boot/single-table-demo/src/main/resources/static/发起申请在我的申请页.png)
 
 ##### 提交申请
 
@@ -146,13 +146,13 @@ redis:
 
 在appraval表单中新增数据的行右边点击**提交申请**即可：
 
-![提交在表单页](./jeecg-boot/single-table-demo/src/main/resources/static/提交在表单页.png)
+![提交在表单页](https://github.com/polarbear567/jeecg-boot-activiti-online/blob/feature/demo/jeecg-boot/single-table-demo/src/main/resources/static/提交在表单页.png)
 
 ###### 提交申请在我的申请页
 
 之前说过，发起申请后，我们可以在**我的申请**页面找到对应的申请，在这条记录的右边可以点击提交申请：
 
-![提交在我的申请页](./jeecg-boot/single-table-demo/src/main/resources/static/提交在我的申请页.png)
+![提交在我的申请页](https://github.com/polarbear567/jeecg-boot-activiti-online/blob/feature/demo/jeecg-boot/single-table-demo/src/main/resources/static/提交在我的申请页.png)
 
 ##### 其他
 
